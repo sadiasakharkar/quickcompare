@@ -32,3 +32,15 @@ export const developmentOffers: Offer[] = [
 ]
 
 export const developmentComparison: ComparisonResponse = { product: cauliflower, location: { city: "Pune", label: "Pune" }, offers: developmentOffers, platformsCompared: 3, platformsResponded: 2, query: "Cauliflower", environment: "development", checkedAt: "2026-09-10T10:45:00+05:30" }
+
+export const developmentPriceObservations = [
+  { date: "2026-06-14", price: 46, platform: developmentPlatforms[1], location: developmentComparison.location },
+  { date: "2026-06-22", price: 43, platform: developmentPlatforms[2], location: developmentComparison.location },
+  { date: "2026-07-01", price: 47, platform: developmentPlatforms[1], location: developmentComparison.location },
+  { date: "2026-07-12", price: 41, platform: developmentPlatforms[2], location: developmentComparison.location },
+  { date: "2026-07-26", price: 45, platform: developmentPlatforms[1], location: developmentComparison.location },
+  { date: "2026-08-08", price: 40, platform: developmentPlatforms[2], location: developmentComparison.location },
+  { date: "2026-08-19", price: 44, platform: developmentPlatforms[1], location: developmentComparison.location },
+  { date: "2026-08-30", price: 42, platform: developmentPlatforms[2], location: developmentComparison.location },
+  { date: "2026-09-10", price: 42, platform: developmentPlatforms[1], location: developmentComparison.location },
+]
